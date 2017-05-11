@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>UI DEV EXERCISE</title>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <section class="header">
+                <h1>Prosoft</h1>
+            </section>
+            <section class="content">
+                <div class="row user-input">
+                    <form id="userInput">
+                        <div class="form-group col-sm-4">
+                            <label for="inputStartDate">Start date: </label>
+                            <input id="inputStartDate" name="startDate" type="text" class="form-control" placeholder="Ex. mm/dd/yyyy" required />
+                        </div>
+                        <div class="form-group col-xs-12 col-sm-4">
+                            <label for="inputNumberDays">Number of days: </label>
+                            <input id="inputNumberDays" name="numberOfDays" type="number" class="form-control" placeholder="Ex. 17" required />
+                        </div>
+                        <div class="form-group col-xs-12 col-sm-2">
+                            <label for="inputCountryCode">Country code: </label>
+                            <input id="inputCountryCode" name="country" type="text" class="form-control" placeholder="Ex. US" required />
+                        </div>
+                        <div class="col-xs-12 col-sm-2">
+                            <button type="submit" class="btn btn-primary btnRenderCalendar">Render Calendar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</html>
