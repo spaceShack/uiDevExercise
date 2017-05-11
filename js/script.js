@@ -107,6 +107,8 @@
                             var elementExists = $('#'+unixHoliday);
                             if(elementExists.length > 0) {
                                 elementExists.attr('class','day holiday-day');
+                                elementExists.attr('title', holidays[holiday].map(x=>x.name+' | ').join('').slice(0, -3));
+                                elementExists.tooltip();
                             }
                         }
                         break;
