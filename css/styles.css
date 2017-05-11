@@ -15,16 +15,16 @@
     border-color: transparent;
 }
 .day.normal-day {
-    background: green;
+    background: #c5dd94;
 }
 .day.weekend-day {
-    background: yellow;
+    background: #fcfe03;
 }
 .day.empty-day {
     background: #cccccc;
 }
 .day.holiday-day {
-    background: orange;
+    background: #fa7c12;
 }
 .month-title {
     width: 100%;
@@ -33,4 +33,7 @@
     text-align: center;
     background-color: #eeeeee;
     color: #333;
+}
+.error-form {
+    display: none;
 }
